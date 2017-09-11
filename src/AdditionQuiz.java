@@ -1,7 +1,15 @@
 import java.util.Scanner;
+/**
+ * GNU GENERAL PUBLIC LICENSE
+ Version 3, 29 June 2007
+ Copyright (C) 2014  Author Akeem Prince Olass.
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+ *
 
+ */
 public class AdditionQuiz {
-
+/**Adds two random numbers*/
     public static int addrand(int num1, int num2) {
         Scanner input = new Scanner(System.in);
         int answer = input.nextInt();
